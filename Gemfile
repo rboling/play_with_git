@@ -28,10 +28,6 @@ gem 'spring',        group: :development
 
 gem 'rspec-rails'
 
-# adding in factorygirl_rails
-
-gem 'factory_girl_rails'
-
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
