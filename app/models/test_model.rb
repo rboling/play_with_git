@@ -6,4 +6,7 @@ class TestModel < ActiveRecord::Base
   def dummy_method
   	1 == 1
   end
+  def another_dummy_method
+    "foo"	
+  end
 end
