@@ -1,9 +1,18 @@
 class TestModel < ActiveRecord::Base
   validates :name, presence: true
+  def get_nil
+  	return nil
+  end
   def name_allowed?
     return !self.name.nil? and self.name == 'null'
   end
-  def dummy_method
-  	1 == 1
+  def foobashbar
+  	"foobashbar"
+  end
+  def another_dummy_method
+  	2==2
+  end
+  def bash_bar
+    "bash_bar"
   end
 end
