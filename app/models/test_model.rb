@@ -15,4 +15,7 @@ class TestModel < ActiveRecord::Base
   def bash_bar
     "bash_bar"
   end
+  def not_rebased
+    "not_rebased"
+  end
 end
