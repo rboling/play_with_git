@@ -18,4 +18,7 @@ class TestModel < ActiveRecord::Base
   def not_rebased
     "not_rebased"
   end
+  def dumb_method
+    "dumb_method"
+  end
 end
