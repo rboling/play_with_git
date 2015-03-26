@@ -21,4 +21,7 @@ class TestModel < ActiveRecord::Base
   def dumb_method
     "dumb_method"
   end
+  def an_even_dumber_method
+    "an_even_dumber_method"
+  end
 end
